@@ -5,11 +5,26 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>✨ natalia ramirez ✨</h1>
-        <img src={require("./assets/me.png")} height="500"/>
-        <p>
-          hello! i'm natalia, a senior at uc berkeley studying data science and economics.
-        </p>
+        {/* Title of page */}
+       <h1>✨ natalia ramirez ✨</h1>
+
+        <div className="row">
+            <div>
+              <img src={require("./assets/me.png")} height="500"/>
+            </div>
+            <div id="blurb">
+              <p>
+                hello! i'm natalia, a senior at uc berkeley studying data science and economics. i like python, big data, design, and the beatles. check out some of my technical projects here or reach me at natalia16@gmail.com!
+              </p>
+              <img src={require("./assets/working.png")} height="300"/>
+            </div>
+        </div>
+          
+            
+
+        
+        
+        
       </header>
     </div>
   );
