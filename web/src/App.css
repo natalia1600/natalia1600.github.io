@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #796883;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -30,19 +30,12 @@
   color: #61dafb;
 }
 
-.row {
+.row { /* make it so that the stuff inside this div is in a row */
   display: flex;
   flex-direction: row;
 }
 
 #blurb {
   padding-left: 8vw;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: medium;
 }
