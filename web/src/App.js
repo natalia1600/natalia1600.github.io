@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>natalia ramirez</h1>
+        <h1>✨ natalia ramirez ✨</h1>
+        <img src={require("./assets/me.png")} height="500"/>
         <p>
-          
+          hello! i'm natalia, a senior at uc berkeley studying data science and economics.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
