@@ -13,17 +13,23 @@
   }
 }
 
+img {
+  height: 30vh;
+  padding: 10px 10px 10px 10px;
+}
+
 .App-header {
-  background-color: #796883;
-  min-height: 80vh;
+  background-color: #F3F0FE;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #F3F0FE;
+  color:black;
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-bottom: 10vh;
 }
 
 .App-link {
@@ -38,4 +44,14 @@
 #blurb {
   padding-left: 8vw;
   font-size: medium;
+}
+
+.App-body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color:black;
 }

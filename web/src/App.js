@@ -11,23 +11,26 @@ function App() {
         <div className="row">
            {/* picture of self */}
             <div>
-              <img src={require("./assets/me.png")} height="500"/>
+              <img src={require("./assets/me.png")} />
             </div>
             <div id="blurb">
               <p>
-                hello! i'm natalia, a senior at uc berkeley studying data science and economics. i like python, big data, design, and the beatles. check out some of my technical projects here or reach me at natalia16@gmail.com!
+                hello! i'm natalia, a senior at uc berkeley studying data science and economics.
+                <br/><br/> i like python, big data, design, and the beatles. check out some of my technical projects here or reach me at natalia16@gmail.com!
               </p>
               {/* cartoon aesthetic pic */}
-              <img src={require("./assets/working.png")} height="300"/>
+              <img src={require("./assets/cat.png")}/>
+              <img src={require("./assets/working.png")}/>
             </div>
         </div>
-          
-            
-
-        
-        
         
       </header>
+
+      <body className="App-body">
+        <h3>projects</h3>
+        <p>alliance for inclusive AI website: </p>
+
+      </body>
     </div>
   );
 }
