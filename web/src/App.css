@@ -57,10 +57,19 @@ img {
   background-color: white;
   outline: thick;
   outline-color: black;
+  color:black;
 }
 
 .button:hover {
   background-color: rgb(255, 252, 217);
+}
+
+.proj-pic {
+  height: 30vh;
+  padding-left: 8vw;
+  padding-bottom: 3vh;
+  /* padding-top: 5vh; */
+  /* width: auto; */
 }
 
 .App-body {
@@ -73,5 +82,13 @@ img {
   color:black;
   padding-left: 20vw;
   padding-right:20vw;
+  padding-top: 10vh;
   text-align: left;
+  padding-bottom: 20vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row { /* if it's too small, don't do row*/
+    flex-direction: column;
+  }
 }
