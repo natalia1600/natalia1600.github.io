@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* Title of page */}
-       <h1>✨ natalia ramirez ✨</h1>
+        <br/><br/>
+       <h1>✨ Natalia Ramirez ✨</h1>
 
         <div className="row">
            {/* picture of self */}
@@ -15,10 +16,11 @@ function App() {
             </div>
             <div id="blurb">
               <p>
-                hello n welcome to my portfolio! i'm natalia, a senior at uc berkeley studying data science and economics.
-                <br/><br/> i like python, big data, design, and the beatles. check out some of my technical projects here or reach me at natalia16@gmail.com!
+                <br/><br/>
+                Hello! I'm natalia, a senior at UC Berkeley studying data science and economics.
+                <br/><br/> Some of my favorite things ever include design, Python, my cat, and The Beatles. Scroll to learn about some of my technical projects, and feel free to contact me at natalia16@berkeley.edu!
 
-                <br/><br/> this website was designed in figma and implemented w/ react js
+                <br/><br/> (I designed this website in figma and implemented it using ReactJS)
               
               </p>
 
@@ -61,7 +63,7 @@ function App() {
              establish a bluetooth connection, and created a questionnaire component of the app. I learned about modal components, 
             Core Data, and incorporating API into projects.</p>
           </div>
-          <img className="proj-pic" src={require("./assets/aiai.png")} />
+          <img className="proj-pic" src={require("./assets/E4specs.png")} />
 
           </div>
 
@@ -73,11 +75,11 @@ function App() {
             👾2D World Generator</p> 
             </a>
             <p>I used Java to implement this psuedo-random world generator for game design. To do this, 
-              I used __ data structures and ___ algorithms. The game is fully playable and I also designed the visuals from scratch! 
+              I used doubly linked lists and hash maps, as well as Dijkstra's algorithm. The game is fully playable and I also designed the visuals from scratch! 
 
             </p>
           </div>
-          <img className="proj-pic" src={require("./assets/aiai.png")} />
+          <img className="proj-pic" src={require("./assets/cs61bee.png")} />
 
           </div>
 
