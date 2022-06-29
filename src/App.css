@@ -19,7 +19,7 @@ img {
 }
 
 .App-header {
-  background-color: #c7e4b9;
+  background-color: #ebe7d7;
   min-height: 50vh;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -27,14 +27,14 @@ img {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:rgb(0, 0, 0);
+  color:hsl(48, 26%, 22%);
   padding-left: 20vw;
   padding-right: 20vw;
   padding-bottom: 10vh;
 }
 
 .App-link {
-  color: #b3ffca;
+  color: #d4abc8;
 }
 
 .row { /* make it so that the stuff inside this div is in a row */
@@ -50,19 +50,19 @@ img {
 .button {
   font-size: medium;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif, bold;
   font-weight: 500;
   padding: 5px 5px 5px 5px;
   margin: 5px 5px 5px 5px;
-  border:2px solid black;
-  background-color: rgb(255, 255, 255);
+  border:2px solid rgb(255, 255, 255);
+  background-color: rgb(126, 156, 138);
   outline: medium;
   outline-color: rgb(0, 0, 0);
-  color:black;
+  color:rgb(255, 255, 255);
 }
 
 .button:hover {
-  background-color: rgb(178, 224, 196);
+  background-color: rgb(195, 171, 214);
 }
 
 .proj-pic {
@@ -74,14 +74,14 @@ img {
 }
 
 .App-body {
-  background-color: white;
+  background-color: rgb(208, 223, 205);
   display: flex;
   flex-direction: column;
   /* align-items: ; */
   font-family: 'Montserrat', sans-serif;
   justify-content: left;
   font-size: small;
-  color:black;
+  color:hsl(48, 26%, 22%);
   padding-left: 20vw;
   padding-right:20vw;
   padding-top: 10vh;
