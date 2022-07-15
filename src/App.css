@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+img {
+  height: 50vh;
+  /* padding: 10px 10px 10px 10px; */
+}
+
+.App-header {
+  background-color: #ebe7d7;
+  min-height: 50vh;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:hsl(48, 26%, 22%);
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 10vh;
+}
+
+.App-link {
+  color: #d4abc8;
+}
+
+.row { /* make it so that the stuff inside this div is in a row */
+  display: flex;
+  flex-direction: row;
+}
+
+#blurb {
+  padding-left: 4vw;
+  font-size: medium;
+}
+
+.button {
+  font-size: medium;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif, bold;
+  font-weight: 500;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  border:2px solid rgb(255, 255, 255);
+  background-color: rgb(126, 156, 138);
+  outline: medium;
+  outline-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: rgb(195, 171, 214);
+}
+
+.proj-pic {
+  height: 30vh;
+  padding-left: 8vw;
+  padding-bottom: 3vh;
+  /* padding-top: 5vh; */
+  /* width: auto; */
+}
+
+.App-body {
+  background-color: rgb(208, 223, 205);
+  display: flex;
+  flex-direction: column;
+  /* align-items: ; */
+  font-family: 'Montserrat', sans-serif;
+  justify-content: left;
+  font-size: small;
+  color:hsl(48, 26%, 22%);
+  padding-left: 20vw;
+  padding-right:20vw;
+  padding-top: 10vh;
+  text-align: left;
+  padding-bottom: 20vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row { /* if it's too small, don't do row*/
+    flex-direction: column;
+  }
+}
